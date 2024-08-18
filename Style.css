@@ -3,6 +3,8 @@
     padding:0;
     box-sizing: border-box;
 }
+
+/*navbar*/
 .navbar{
     width:100vw;
     height:7.5vh;
@@ -12,7 +14,7 @@
     justify-content: center;
     align-items: center;
     gap:60%;
-
+    border: 1px solid white;
 }
 .nav-icon{
     display: flex;
@@ -39,4 +41,81 @@
     height:100%;
     justify-content: space-evenly;
     align-items: center;
+}
+/*navbar*/
+
+/*profile section */
+
+.profile{
+    display:flex;
+    width:100h;
+    height:40vh;
+    color: #FFFFFF;
+    background-color: #000000;
+    align-items: center;
+    justify-content: left;
+    border: 1px solid white;
+    
+}
+.profile-icon{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin-left: 2%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0RcuZKOJFFCRrSvoa-QhEGrgv9QyqfER-0A&s");
+    background-size: cover;
+    border: 1px solid white;
+}
+.profile-text{
+    width:50vw;
+    height:80%;
+    display : flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    gap:10%;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+.upperText{
+    margin-top: 1%;
+    color:white;
+    width: 70%;
+    height: 40%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    gap:10%;
+}
+.lowerText{
+    color:white;
+    width: 70%;
+    height: 40%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    gap:10%;
+    
+}
+.innerText{
+    color:#FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 1rem;
+}
+#numbers{
+    text-align: center;
+}
+.button{
+    width:60px;
+    height:35px;
+    text-align: center;
+    padding-top: 1.5%;
+    background-color: rgb(5, 49, 247);
+    color:white;
+    border-radius: 15%;
+
 }
