@@ -72,6 +72,13 @@
     background-size: cover;
     border: 1px solid white;
 }
+.name{
+    width:30vw;
+    font-size:2rem;
+    font-family: cursive;
+    
+    margin-left: 10%;
+}
 .profile-text{
     width:50vw;
     height:80%;
@@ -141,23 +148,25 @@
   
   @keyframes scrollLeft {
     to {
-      left: -300px;
+      left: -200px;
     }
   }
 
 .item {
-    width: 300px;
+    width: 200px;
     height: 200px;
     background-color:black;
     border-radius: 6px;
     position: absolute;
-   
-    left: max(calc(300px * 8), 100%);
+    color: #fff;
+    font-size: large;
+    left: max(calc(200px * 8), 100%);
     animation-name: scrollLeft;
     animation-duration: 30s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -199,7 +208,7 @@
     width: 180px;
     height:180px;
     border-radius: 50%;
-    background-image: url("D:\FalseSocial\story1img.png");
+    
     background-size: contain;
     background-color: aliceblue;
     border:1.5px solid white;
