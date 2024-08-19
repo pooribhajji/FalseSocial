@@ -2,6 +2,12 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    background-color: #000000;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /*navbar*/
@@ -48,8 +54,8 @@
 
 .profile{
     display:flex;
-    width:100h;
-    height:40vh;
+    width:100vw;
+    height:50vh;
     color: #FFFFFF;
     background-color: #000000;
     align-items: center;
@@ -119,3 +125,124 @@
     border-radius: 15%;
 
 }
+/*profile bar completed */
+
+.wrapper {
+    width: 90%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 200px;
+    margin-top: 2.5rem;
+    overflow: hidden;
+    border: white;
+    background-color: #000000;
+  }
+  
+  @keyframes scrollLeft {
+    to {
+      left: -300px;
+    }
+  }
+
+.item {
+    width: 300px;
+    height: 200px;
+    background-color:black;
+    border-radius: 6px;
+    position: absolute;
+   
+    left: max(calc(300px * 8), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.item1 {
+    animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  }
+  
+  .item2 {
+    animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  }
+  
+  .item3 {
+    animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  }
+  
+  .item4 {
+    animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  }
+  
+  .item5 {
+    animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  }
+  
+  .item6 {
+    animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  }
+  
+  .item7 {
+    animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  }
+  
+  .item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  }
+
+  .story{
+    width: 180px;
+    height:180px;
+    border-radius: 50%;
+    background-image: url("D:\FalseSocial\story1img.png");
+    background-size: contain;
+    background-color: aliceblue;
+    border:1.5px solid white;
+    
+
+  }
+
+  #story1{
+    background-image: url("story1img.png");
+    background-size: contain; 
+  }
+
+  #story2{
+    background-image: url("story2img.png");
+    background-size: contain;  
+}
+
+  #story3{
+    background-image: url("story3img.png");
+    background-size: contain; 
+  }
+
+  #story4{
+    background-image: url("story4img.png");
+    background-size: contain; 
+  }
+
+  #story5{
+    background-image: url("story5img.png");
+    background-size: contain; 
+  }
+
+  #story6{
+    background-image: url("story6img.png");
+    background-size: contain; 
+  }
+
+  #story7{
+    background-image: url("story7img.png");
+    background-size: contain; 
+  }
+
+  #story8{
+    background-image: url("story8img.png");
+    background-size: contain; 
+  }
