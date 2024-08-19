@@ -132,6 +132,14 @@
     border-radius: 15%;
 
 }
+.description{
+   text-align: left;
+    width:50vw;
+    height:80%;
+    margin-right: 1%;
+    font-size: large;
+    font-family: cursive;
+}
 /*profile bar completed */
 
 .wrapper {
@@ -254,4 +262,64 @@
   #story8{
     background-image: url("story8img.png");
     background-size: contain; 
+  }
+  /*SECTION 1 COMPLETED*/
+
+  /*SECTION 2 Start */
+  .namebar{
+   margin-top:2rem; 
+   text-align:left;
+   padding-left: 2rem;
+   padding-top: 0.75rem;
+    width:100vw;
+    height:10vh;
+    background-color: #534e4e;
+    color:#fff;
+    font-size: x-large;
+  }
+  .upload{
+    width:100vw;
+    height:78vh;
+    background-color: rgb(0, 8, 8);
+    display: flex;
+    justify-content: center;
+  }
+  .uploadphoto1{
+    width:60vw;
+    height:78vh;
+    background-image: url("upload1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .reaction{
+    width:100vw;
+    height:10vh;
+    background-color: #534e4e;
+    color:#fff;
+    font-size: x-large;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap:2rem;
+    padding-left: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .reaction i{
+    background-color: #534e4e;
+  }
+  /*Section 2 */
+  .uploadphoto2{
+    width:60vw;
+    height:78vh;
+    background-image: url("upload2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /*Section 3 */
+  .uploadphoto3{
+    width:60vw;
+    height:78vh;
+    background-image: url("upload3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
